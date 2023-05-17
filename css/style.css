@@ -16,6 +16,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -48,12 +49,14 @@ menu a:hover {
     border-bottom: 1px solid #36454F
 }
 
-/* hero image */
+/* hero image and left section */
 
 #hero-outer {
     height: 600px;
     width: 40%;
     overflow: hidden;
+    float: left;
+    padding-top: 30px;
 }
 
 #hero-image {
@@ -75,4 +78,11 @@ animation-fill-mode: forwards;
     to{
         transform: scale(1.1);
         }
+}
+/* right section with text */
+
+#right-about {
+    padding-top: 30px;
+    float: right;
+    width: 50%;
 }
