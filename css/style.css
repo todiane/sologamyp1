@@ -26,3 +26,33 @@ color: #36454F
     float: left;
     font-size: 200%;
 }
+
+/* navigation links */
+
+#menu {
+font-size: 120%;
+letter-spacing: 2px;
+}
+
+#menu, #logo {
+line-height: 75px;
+}
+
+#menu li {
+float: right;
+list-style-type: none;
+margin-right: 30px;
+}
+
+#menu a {
+text-decoration: none;
+color: inherit;
+}
+
+menu a:hover {
+    border-bottom: 1px solid #36454F
+}
+
+.active {
+border-bottom: 1px solid #36454F
+}
