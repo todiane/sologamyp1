@@ -86,3 +86,11 @@ animation-fill-mode: forwards;
     float: right;
     width: 50%;
 }
+
+.right-about-heading {
+width: 60%;
+clear: both;
+float: right;
+line-height: 30px;
+margin-bottom: 50px;
+}
