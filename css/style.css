@@ -1,11 +1,5 @@
-* {
-margin: 0;
-padding: 0;
-border: none;
-}
-
 body {
-    font-family:Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -27,23 +21,23 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-font-size: 120%;
-letter-spacing: 2px;
+    font-size: 120%;
+    letter-spacing: 2px;
 }
 
 #menu, #logo {
-line-height: 75px;
+    line-height: 75px;
 }
 
 #menu li {
-float: right;
-list-style-type: none;
-margin-right: 30px;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a {
-text-decoration: none;
-color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 menu a:hover {
@@ -51,5 +45,34 @@ menu a:hover {
 }
 
 .active {
-border-bottom: 1px solid #36454F
+    border-bottom: 1px solid #36454F
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 40%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 40%;
+    background: url(../images/slop10.jpg) no-repeat left center;
+}
+
+/* animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+        }
+    to{
+        transform: scale(1.1);
+        }
 }
