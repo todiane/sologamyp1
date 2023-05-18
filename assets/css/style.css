@@ -1,43 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Monserrat, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Verdana, Tahoma, sans-serif;
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #36454F
+    letter-spacing: 2px;
+    color: #252525;
 }
-
-/* #header {
-    width: 150
-} */
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin-left: 50px;
+    font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 2px;
 }
 
-#menu, #logo {
-    line-height: 75px;
+#menu,
+#logo {
+    line-height: 150px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 30px
 }
 
 #menu a {
@@ -45,35 +51,381 @@ h1, h2 {
     color: inherit;
 }
 
-menu a:hover {
-    border-bottom: 1px solid #0000ff
+#menu a:hover {
+    border-bottom: 1px solid #0000ff;
+    color: blue
 }
 
 .active {
-    border-bottom: 1px solid #0000ff
+    border-bottom: 1px solid #0000ff;
 }
 
-/* top image and text section */
+.active {
+    border-bottom: 1px solid #0000ff;
+}
 
-#intro {
+/* hero image and cover-text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* #cover-text,
+#cover-text h2 {
+    color: #fff;
+    text-align: center;
+} */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Monserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+/* club ethos */
+
+#club-ethos {
+    height: 500px
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+
+}
+
+/* hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px, 0;
+} */
+
+#welcome {
+    text-align: center;
+    margin: 45px 0;
+    font-size: 280%
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
     margin-bottom: 50px;
-    width: 66%;
+}
+
+.left-about-heading h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.left-about-heading p {
+    text-align: center;
+}
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.right-about-heading p {
+    text-align: center;
+}
+
+
+.center-about-heading {
+    width: 60%;
+    /* float: none; */
+    line-height: 20px;
+    /* clear: both; */
+    margin-bottom: 50px;
+}
+.center-about-heading h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.center-about-heading p {
+    text-align: center;
+}
+
+/* #circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
     margin: 0 auto;
 }
 
-.intro-left {
-    width: 25%;
-    margin-top: 20px;
-	float: left;
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%
+} */
+
+/* event times */
+
+#times {
+    background-image: url('../images/celebration.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 
-.intro-right {
-    width: 75%;
-    text-align: justify;
-    margin-top: 20px;
-	float: right;
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 30px 0 10px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+#times h2 {
+    color: #fafafa;
+}
+.social-networks {
+    text-align: center;
 }
 
-.spacer {
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%; 
+    margin: 1%;
+    padding: 5%; 
+    color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
     clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("../images/");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 100%;
+    color: #fafafa;
+    padding: 15px 32px 15px 32px;
+    background-color: #f16c6b;
+    display: block;
+
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #photo {
+        column-count: 3;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
+    }
 }
