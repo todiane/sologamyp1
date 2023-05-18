@@ -12,6 +12,11 @@ h1, h2 {
     letter-spacing: 3px;
     color: #36454F
 }
+
+/* #header {
+    width: 150
+} */
+
 #logo {
     float: left;
     font-size: 200%;
@@ -48,3 +53,27 @@ menu a:hover {
     border-bottom: 1px solid #0000ff
 }
 
+/* top image and text section */
+
+#intro {
+    margin-bottom: 50px;
+    width: 66%;
+    margin: 0 auto;
+}
+
+.intro-left {
+    width: 25%;
+    margin-top: 20px;
+	float: left;
+}
+
+.intro-right {
+    width: 75%;
+    text-align: justify;
+    margin-top: 20px;
+	float: right;
+}
+
+.spacer {
+    clear: both;
+}
