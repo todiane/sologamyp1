@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #36454F
+}
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 50px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+menu a:hover {
+    border-bottom: 1px solid #0000ff
+}
+
+.active {
+    border-bottom: 1px solid #0000ff
+}
+
