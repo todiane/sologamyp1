@@ -75,11 +75,11 @@ h2 {
     position: relative;
 }
 
-/* #cover-text,
+#cover-text,
 #cover-text h2 {
-    color: #fff;
+    color: #3a3a3a;
     text-align: center;
-} */
+}
 
 #hero-image {
     height: 600px;
@@ -105,18 +105,18 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 110%;
     font-family: Monserrat, sans-serif;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 2px;
 
-    width: 300px;
+    width: 400px;
     height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(245, 245, 245, .6);
 
     bottom: 30px;
     right: 150px;
@@ -127,34 +127,28 @@ h2 {
 /* club ethos */
 
 #club-ethos {
-    height: 400px
+    height: 500px
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 30%;
+    padding-top: 50px;
+    width: 33%;
     float: left;
    
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 30%;
+    padding-top: 50px;
+    width: 33%;
     float: right;
 }
 
 #center-about {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 30%;
     margin: 0 auto;
 
 }
-
-/* hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px, 0;
-} */
 
 #welcome {
     text-align: center;
@@ -195,7 +189,6 @@ h2 {
     text-align: center;
 }
 
-
 .center-about-heading {
     width: 60%;
     /* float: none; */
@@ -212,22 +205,6 @@ h2 {
     text-align: center;
 }
 
-/* #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 50%
-} */
 /* club intro */
 #club-intro {
     vertical-align: top;
@@ -280,12 +257,22 @@ h2 {
     color: #3a3a3a;
 }
 
-/* gallery */
+/* Club Info Page */
+
+.join-box {
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-align: center;
 
 #photos {
     clear: both;
-    line-height: 0;
-    column-count: 4;
+    /* line-height: 0; */
+    column-count: 3;
     column-gap: 0;
 
 }
