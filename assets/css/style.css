@@ -9,7 +9,9 @@
 body {
     font-family: Monserrat, sans-serif;
     font-weight: 300;
+    font-size: 18px;
     color: #3a3a3a;
+   
 }
 
 /* headings and logo */
@@ -125,13 +127,14 @@ h2 {
 /* club ethos */
 
 #club-ethos {
-    height: 500px
+    height: 400px
 }
 
 #left-about {
     padding-top: 30px;
     width: 30%;
     float: left;
+   
 }
 
 #right-about {
@@ -225,7 +228,17 @@ h2 {
     height: 100%;
     border-radius: 50%
 } */
-
+/* club intro */
+#club-intro {
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
 /* event times */
 
 #times {
