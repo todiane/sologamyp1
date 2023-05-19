@@ -66,11 +66,13 @@ h2 {
     border-bottom: 1px solid #0000ff;
 }
 
-/* hero image and cover-text */
+/* body text line height */
 
 p {
     line-height: 1.5;
 }
+
+/* hero image and cover-text */
 
 #hero-outer {
     height: 600px;
@@ -128,9 +130,9 @@ p {
     position: absolute;
 }
 
-/* club ethos */
+/* Introduction to Sologamy */
 
-#club-ethos {
+#club-introduction {
     height: 500px
 }
 
@@ -195,7 +197,7 @@ p {
 
 .center-about-heading {
     width: 60%;
-    /* float: none; */
+    float: none;
     line-height: 20px;
     /* clear: both; */
     margin-bottom: 50px;
@@ -210,6 +212,7 @@ p {
 }
 
 /* club intro */
+
 #club-intro {
     vertical-align: top;
     display: inline-block;
@@ -220,9 +223,10 @@ p {
     margin-left: 30px;
     text-align: center;
 }
-/* event times */
 
-#times {
+/* Sologamy Club Details */
+
+#club-details {
     background-image: url('../images/celebration.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +235,7 @@ p {
     overflow: hidden;
 }
 
-#times div {
+#club-details div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -243,7 +247,7 @@ p {
     box-sizing: border-box;
     line-height: 40px;
 }
-#times h2 {
+#club-details h2 {
     color: #fafafa;
 }
 
@@ -266,16 +270,6 @@ p {
 
 /* Ceremonies Page */
 
-/* .join-box {
-    vertical-align: top;
-    display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 90%;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    text-align: center; */
-
 #photos {
     clear: both;
     line-height: 0;
@@ -287,7 +281,16 @@ p {
     width: 100%;
 }
 
-/* Form */
+#return {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Register Page Form */
 
 .form-section {
     clear: left;
@@ -381,9 +384,7 @@ p {
         padding: 0;
     }
 
-    hr {
-        display: none;
-    }
+    
 }
 
 /* For medium screens sizes from 950px wide and down */
