@@ -271,14 +271,15 @@ h2 {
 
 #photos {
     clear: both;
-    /* line-height: 0; */
-    column-count: 3;
+    line-height: 0;
+    column-count: 2;
     column-gap: 0;
+    
 
 }
 
 #photos > img {
-    width: 100%;
+    width: 60%;
 }
 
 /* Form */
