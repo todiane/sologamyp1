@@ -26,7 +26,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 250%;
     margin-left: 30px;
 }
 
@@ -130,6 +130,7 @@ h2 {
     height: 500px
 }
 
+
 #left-about {
     padding-top: 50px;
     width: 33%;
@@ -145,15 +146,14 @@ h2 {
 
 #center-about {
     padding-top: 50px;
-    width: 30%;
-    margin: 0 auto;
-
+    width: 33%;
+    margin: auto;
 }
 
 #welcome {
     text-align: center;
     margin: 45px 0;
-    font-size: 280%
+    font-size: 250%
 }
 
 .left-about-heading {
@@ -259,7 +259,7 @@ h2 {
 
 /* Club Info Page */
 
-.join-box {
+/* .join-box {
     vertical-align: top;
     display: inline-block;
     padding-left: 50px;
@@ -267,19 +267,17 @@ h2 {
     width: 90%;
     margin-bottom: 30px;
     margin-left: 30px;
-    text-align: center;
+    text-align: center; */
 
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 2;
+    column-count: 4;
     column-gap: 0;
-    
-
 }
 
 #photos > img {
-    width: 60%;
+    width: 100%;
 }
 
 /* Form */
@@ -365,7 +363,7 @@ h2 {
     #center-about {
         clear: both;
         width: 100%;
-        float: left;
+        float: none;
         padding: 0;
     }
 
