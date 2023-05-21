@@ -243,11 +243,11 @@ p {
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 30px 0 10px;
+    padding: 3% 0 3% 0;
     text-align: center;
     border: 2px solid #ffffff;
     box-sizing: border-box;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 #club-details h2 {
@@ -298,9 +298,6 @@ p {
 
 .form-section {
     clear: left;
-    /* background: url("../images/solp.11.jpg"); */
-    /* background-size: cover;
-    background-position: center; */
     height: 900px;
 }
 
@@ -398,8 +395,15 @@ p {
     #club-details div {
         width: 100%;
         clear: both;
-        height: 250px;
+        height: 150px;
         padding: 0;
+    }
+
+    #form-section {
+        width: 65%;
+        height: 500px;
+        margin: 0 auto;
+        
     }
 
 
@@ -440,7 +444,7 @@ p {
     #club-details div {
         width: 90%;
         clear: both;
-        height: 250px;
+        height: 150px;
         padding: 0;
     }
 
@@ -459,6 +463,13 @@ p {
     #photo {
         column-count: 3;
     }
+
+    #form-section {
+        width: 65%;
+        height: 500px;
+        margin: 0 auto;
+    
+     }
 }
 
 /* For small screens sizes from 800px wide and down */
