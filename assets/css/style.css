@@ -290,11 +290,12 @@ p {
     padding-top: 50px;
 }
 
+
 /* Register Page Form */
 
 .form-section {
     clear: left;
-    background: url("../images/");
+    background: url("../images/solp.11.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -304,14 +305,14 @@ p {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
 }
 
 .signup-form>h2 {
-    color: #fafafa;
+    color: #3d128f;
     margin-bottom: 20px;
 
 }
@@ -327,7 +328,7 @@ p {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #3d128f;
 
 }
 
@@ -338,14 +339,14 @@ p {
     font-size: 100%;
     color: #fafafa;
     padding: 15px 32px 15px 32px;
-    background-color: #f16c6b;
+    background-color: #3d128f;
     display: block;
 
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #3d128f;
 }
 
 /* Media queries */
