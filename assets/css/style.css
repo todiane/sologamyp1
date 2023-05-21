@@ -295,19 +295,20 @@ p {
 
 .form-section {
     clear: left;
-    background: url("../images/solp.11.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+    /* background: url("../images/solp.11.jpg"); */
+    /* background-size: cover;
+    background-position: center; */
+    height: 900px; 
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 50px 10% 0 10%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
     position: absolute;
-    left: 10%;
+    top: 70%;
+    left: 27%;
     padding: 30px;
 }
 
@@ -327,6 +328,11 @@ p {
     border-radius: 2px;
 }
 
+.details {
+    font-size: 22px;
+    line-height: 2;
+    font-family: Monserrat, sans-serif;
+}
 .text-input:hover {
     border-color: #3d128f;
 

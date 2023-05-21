@@ -51,8 +51,8 @@
 <section id="club-intro">
     <h2 id="welcome">Register</h2>
     <div>
-        <p>Interested in joining The Sologamy Club? Get the support you need to learn how to be your own friend,
-            develop self-love and create your special day.<p> Complete the form below and hit the "Sign Me Up!" button then a member of our group
+        <p>Interested in joining The Sologamy Club? Get the support you need to learn how to be your own friend,<p>
+            develop self-love and create your special day. Complete the form below and hit the "Sign Me Up!" button then a member of our group
             will be in touch.
         </p>
     </div>
@@ -70,13 +70,30 @@
 
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email_address" required class="text-input">
-
+        <p class="details">I am interested in:</p>
         <label for="road">Meetups</label>
         <input type="radio" id="road" name="running_preference" value="road" required>
         <label for="trail">Online only</label>
         <input type="radio" id="trail" name="running_preference" value="trail" required>
         <label for="both">Both</label>
         <input type="radio" id="both" name="running_preference" value="both" required>
+        <p class="details">How did you hear about us?</p>
+        <div>
+            <input type="checkbox" id="friend-checkbox" name="friend">
+            <label for="friend-checkbox">Friend/Existing Member</label>
+        </div>   
+        <div>
+            <input type="checkbox" id="search-checkbox" name="search">
+            <label for="search-checkbox">Search Engine</label>
+        </div>
+        <div>
+            <input type="checkbox" id="social-checkbox" name="social">
+            <label for="social-checkbox">Social Media</label>
+        </div>
+        <div>
+            <input type="checkbox" id="flyer-checkbox" name="flyer">
+            <label for="flyer-checkbox">Flyer/Invite</label>
+        </div>
 
         <input class="join-button" type="submit" value="Sign Me Up!">
     </form>
