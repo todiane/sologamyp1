@@ -332,7 +332,7 @@ p {
 }
 
 .details {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 2;
     font-family: Monserrat, sans-serif;
 }
@@ -381,20 +381,21 @@ p {
     }
 
     #left-about,
+    #center-about, 
     #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about {
+    /* #center-about {
         clear: both;
         width: 100%;
         float: none;
         padding: 0;
-    }
+    } */
 
-    #times div {
+    #club-details div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -435,6 +436,13 @@ p {
     .right-about-heading {
         width: inherit;
     }
+
+    #club-details div {
+        width: 90%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+     }
 
     .left-about-heading h2,
     .right-about-heading h2 {
