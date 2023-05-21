@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     color: #3a3a3a;
-   
+
 }
 
 /* headings and logo */
@@ -141,7 +141,7 @@ p {
     padding-top: 50px;
     width: 33%;
     float: left;
-   
+
 }
 
 #right-about {
@@ -178,6 +178,7 @@ p {
 .left-about-heading p {
     text-align: center;
 }
+
 .right-about-heading {
     width: 60%;
     float: left;
@@ -202,6 +203,7 @@ p {
     /* clear: both; */
     margin-bottom: 50px;
 }
+
 .center-about-heading h2 {
     text-align: center;
     margin-bottom: 20px
@@ -247,6 +249,7 @@ p {
     box-sizing: border-box;
     line-height: 40px;
 }
+
 #club-details h2 {
     color: #fafafa;
 }
@@ -257,14 +260,14 @@ p {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
 .social-networks i {
-    font-size: 160%; 
+    font-size: 160%;
     margin: 1%;
-    padding: 5%; 
+    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -277,7 +280,7 @@ p {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -298,7 +301,7 @@ p {
     /* background: url("../images/solp.11.jpg"); */
     /* background-size: cover;
     background-position: center; */
-    height: 900px; 
+    height: 900px;
 }
 
 .signup-form {
@@ -333,6 +336,7 @@ p {
     line-height: 2;
     font-family: Monserrat, sans-serif;
 }
+
 .text-input:hover {
     border-color: #3d128f;
 
@@ -359,7 +363,7 @@ p {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #club-introduction {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -368,6 +372,12 @@ p {
     #welcome {
         padding: 30px 0;
         margin-top: 0;
+    }
+
+    #club-intro {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
     #left-about,
@@ -391,7 +401,7 @@ p {
         padding: 0;
     }
 
-    
+
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -409,7 +419,13 @@ p {
         left: 0px;
     }
 
-    #club-ethos {
+    #club-introduction {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #club-intro {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
