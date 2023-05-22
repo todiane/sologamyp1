@@ -158,7 +158,7 @@ p {
     padding: 0 10px 0 10px;
    
 }
-
+ 
 /* Information about joining Sologamy club  */
 
 #club-intro {
@@ -179,6 +179,10 @@ p {
 }
 
 /* Sologamy Club Details */
+.tribe {
+    text-align: center;
+
+}
 
 #club-details {
     background-image: url('../images/celebration.webp');
