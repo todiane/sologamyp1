@@ -136,7 +136,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin: 50px 0 50px 0;
     font-size: 250%;
 }
 
@@ -146,12 +146,20 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
 .column {
     flex: 33.33%;
+    text-align: center;   
+   
+}
+
+.column2 {
+    flex: 33.33%;
     text-align: center;
-    
+    margin-top: 40px;
+    margin: 50px 0 50px 0;
 }
 
 .column p {
