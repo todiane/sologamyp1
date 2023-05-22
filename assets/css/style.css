@@ -39,7 +39,8 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 150px;
+    line-height: 50px;
+
 }
 
 #menu li {
@@ -146,13 +147,13 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    
+
 }
 
 .column {
     flex: 33.33%;
-    text-align: center;   
-   
+    text-align: center;
+
 }
 
 .column2 {
@@ -164,9 +165,9 @@ p {
 
 .column p {
     padding: 0 10px 0 10px;
-   
+
 }
- 
+
 /* Information about joining Sologamy club  */
 
 #club-intro {
@@ -174,7 +175,7 @@ p {
     display: inline-block;
     padding-left: 50px;
     padding-right: 50px;
-    width: 90%;
+    */ width: 90%;
     margin-bottom: 30px;
     margin-left: 30px;
     text-align: center;
@@ -260,6 +261,23 @@ p {
 
 /* Register Page Form */
 
+#club-intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+
+}
+
+.register p {
+    padding: 20px 0 20px 0;
+}
+
 .form-section {
     clear: left;
     height: 900px;
@@ -271,8 +289,6 @@ p {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
     position: absolute;
-    top: 70%;
-    left: 27%;
     padding: 30px;
 }
 
@@ -326,7 +342,7 @@ p {
 @media screen and (max-width: 1200px) {
     #club-introduction {
         width: 65%;
-        height: 1200px;
+        min-height: 1200px;
         margin: 0 auto;
     }
 
@@ -337,37 +353,23 @@ p {
 
     #club-intro {
         width: 65%;
-        height: 500px;
+        /* min-height: 500px; */
         margin: 0 auto;
     }
 
-    #left-about,
-    #center-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    /* #center-about {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-    } */
 
     #club-details div {
         width: 100%;
         clear: both;
-        height: 150px;
+        min-height: 150px;
         padding: 0;
     }
 
     #form-section {
         width: 65%;
-        height: 500px;
+        min-height: 500px;
         margin: 0 auto;
-        
+
     }
 
 
@@ -390,39 +392,27 @@ p {
 
     #club-introduction {
         width: 90%;
-        height: 1200px;
+        min-height: 1200px;
         margin: 0 auto;
     }
+
 
     #club-intro {
         width: 90%;
-        height: 300px;
+        min-height: 300px;
         margin: 0 auto;
     }
 
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
+
 
     #club-details div {
         width: 90%;
         clear: both;
-        height: 150px;
+        min-height: 150px;
         padding: 0;
+        overflow-y: hidden;
     }
 
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
 
     #photo {
         column-count: 3;
@@ -430,10 +420,10 @@ p {
 
     #form-section {
         width: 65%;
-        height: 500px;
+        min-height: 500px;
         margin: 0 auto;
-    
-     }
+
+    }
 }
 
 /* For small screens sizes from 800px wide and down */
