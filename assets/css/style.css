@@ -213,7 +213,7 @@ p {
     text-align: center;
 }
 
-/* club intro */
+/* Information about joining Sologamy club  */
 
 #club-intro {
     vertical-align: top;
@@ -224,6 +224,12 @@ p {
     margin-bottom: 30px;
     margin-left: 30px;
     text-align: center;
+}
+
+#welcome1 {
+    text-align: center;
+    margin: 45px 0;
+    font-size: 250%
 }
 
 /* Sologamy Club Details */
@@ -271,7 +277,7 @@ p {
     color: #3a3a3a;
 }
 
-/* Ceremonies Page */
+/* Ceremonies Page with photos */
 
 #photos {
     clear: both;
