@@ -148,49 +148,59 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 50px 0;
+    margin: 2vw;
     font-size: 250%;
 }
 
 .columns {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    width: 100%;
+    margin: 0.5vw;
+    /* width: 100%; */
 
 }
 
 .column {
     flex: 33.33%;
     text-align: center;
-    margin: 50px 0 50px 0;
 }
 
 .column2 {
     flex: 33.33%;
     text-align: center;
-    margin: 50px 0 50px 0;
 }
 
-.column p {
-    padding: 0 10px 0 10px;
-
+.column h2 {
+    padding: 2vh;
 }
+
+/* .column p {
+    padding: 0 20px 0 20px;
+
+} */
 
 /* Information about joining Sologamy club  */
 
 #welcome1 {
-    text-align: center;
-    margin: 45px 0;
-    font-size: 250%
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+#welcome1 h2 {
+    font-size: 250%;
+    padding: 2vh;
+}
+
+#welcome1 p {
+    padding: 1vh;
 }
 
 /* Sologamy Club Details */
-.tribe {
-    text-align: center;
-
-}
 
 #club-details {
     background-image: url('../images/celebration.webp');
@@ -236,6 +246,23 @@ p {
 }
 
 /* Ceremonies Page with photos */
+
+#ceremonies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+#ceremonies h2 {
+    font-size: 250%;
+    padding: 2vh;
+}
+
+#ceremonies p {
+    padding: 1vh;
+}
 
 #photos {
     clear: both;
@@ -429,5 +456,33 @@ p {
 @media screen and (max-width: 800px) {
     #photo {
         column-count: 2;
+    }
+
+    #logo {
+        font-size: 9vw;
+        margin-left: 5vw;
+    }
+
+    #menu li {
+        margin-right: 6vw;
+    }
+
+    #menu {
+        margin-left: 0;
+        font-size: 5vw;
+        letter-spacing: 0.3vw;
+        line-height: 9vh;
+    }
+
+    #menu,
+    #logo {
+        line-height: 15vh;
+    }
+
+    #welcome {
+        font-size: 6vh;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0;
     }
 }
