@@ -176,10 +176,10 @@ p {
     padding: 2vh;
 }
 
-/* .column p {
-    padding: 0 20px 0 20px;
+.column2 h2 {
+    padding: 2vh;
+}
 
-} */
 
 /* Information about joining Sologamy club  */
 
@@ -245,7 +245,7 @@ p {
     color: #3a3a3a;
 }
 
-/* Ceremonies Page with photos */
+/* Ceremonies title with text */
 
 #ceremonies {
     display: flex;
@@ -264,6 +264,9 @@ p {
     padding: 1vh;
 }
 
+
+/* Ceremonies photos section */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -272,41 +275,47 @@ p {
 }
 
 #photos>img {
-    width: 100%;
+    width: 100%
 }
 
+/* back to top return link */
+
 #return {
-    font-family: 'Open Sans', sans-serif;
     text-transform: lowercase;
     letter-spacing: 2px;
     color: #252525;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3vh;
 }
 
 
 /* Register Page Form */
 
-#club-intro {
+/* Introduction title with text */
+
+#register {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.register {
-    display: flex;
     align-items: center;
-
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
-.register p {
-    padding: 20px 0 20px 0;
+#register h2 {
+    font-size: 250%;
+    padding: 2vh;
 }
 
-.form-section {
+#register p {
+    padding: 1vh;
+}
+
+/* registration form */
+
+#form-section {
     clear: left;
-    height: 900px;
+    height: 50vh;
+    display: inline-block;
 }
 
 .signup-form {
