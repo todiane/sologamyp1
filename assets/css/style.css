@@ -241,12 +241,12 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.5rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 #ceremonies h2 {
     font-size: 200%;
-    padding: 2vh;
+    padding: 5vh;
 }
 
 #ceremonies p {
@@ -301,19 +301,13 @@ p {
 
 /* registration form */
 
-#form-section {
-    clear: left;
-    height: 50vh;
-    display: inline-block;
-}
-
 .signup-form {
     margin: 50px 10% 0 10%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
-    position: absolute;
     padding: 30px;
+
 }
 
 .signup-form>h2 {
