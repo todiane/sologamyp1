@@ -28,6 +28,7 @@ h2 {
     float: left;
     font-size: 200%;
     margin-left: 30px;
+
 }
 
 /* navigation links */
@@ -39,7 +40,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 50px;
+    line-height: 8vh;
 
 }
 
@@ -143,11 +144,9 @@ p {
 
 .columns {
     display: flex;
-    /* justify-content: space-between; */
-    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0.5vw;
-    /* width: 100%; */
+    width: 100%;
 
 }
 
@@ -246,11 +245,11 @@ p {
 
 #ceremonies h2 {
     font-size: 200%;
-    padding: 5vh;
+    padding: 3vh;
 }
 
 #ceremonies p {
-    padding: 1vh;
+    padding: 3vh;
 }
 
 
@@ -263,7 +262,7 @@ p {
     column-gap: 0;
 }
 
-#photos>img {
+#photos>div>img {
     width: 100%
 }
 
@@ -281,6 +280,13 @@ p {
 /* Register Page Form */
 
 /* Introduction title with text */
+
+#form-section {
+
+    display: flex;
+
+}
+
 
 #register {
     display: flex;
