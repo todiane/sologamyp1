@@ -240,16 +240,21 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.5rem;
-    /* margin-top: 3rem; */
+
 }
 
-#ceremonies h2 {
+/* #ceremonies h2 {
     font-size: 200%;
-    padding: 3vh;
+    padding: 1vh;
+} */
+
+.ceremony {
+    margin-top: 6rem;
+    font-size: 200%;
 }
 
 #ceremonies p {
-    padding: 3vh;
+    padding: 2vh;
 }
 
 
