@@ -22,6 +22,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+
 }
 
 #logo {
@@ -236,17 +237,13 @@ p {
 /* Ceremonies title with text */
 
 #ceremonies {
+    clear: both;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.5rem;
 
 }
-
-/* #ceremonies h2 {
-    font-size: 200%;
-    padding: 1vh;
-} */
 
 .ceremony {
     margin-top: 6rem;
@@ -369,38 +366,18 @@ p {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-introduction {
-        width: 65%;
-        min-height: 1200px;
-        margin: 0 auto;
-    }
 
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-    }
 
     #club-intro {
         width: 65%;
-        /* min-height: 500px; */
-        margin: 0 auto;
-    }
-
-
-    #club-details div {
-        width: 100%;
-        clear: both;
-        min-height: 150px;
-        padding: 0;
-    }
-
-    #form-section {
-        width: 65%;
         min-height: 500px;
         margin: 0 auto;
-
     }
 
+    .details-box {
+        display: flex;
+        flex-flow: column nowrap;
+    }
 
 }
 
@@ -419,19 +396,11 @@ p {
         left: 0px;
     }
 
-    #club-introduction {
-        width: 90%;
-        min-height: 1200px;
-        margin: 0 auto;
+    .columns {
+        display: flex;
+        flex-flow: column nowrap;
+
     }
-
-
-    #club-intro {
-        width: 90%;
-        min-height: 300px;
-        margin: 0 auto;
-    }
-
 
 
     #club-details div {
@@ -442,24 +411,21 @@ p {
         overflow-y: hidden;
     }
 
+    .ceremony {
+        margin-top: 2rem;
 
-    #photo {
+    }
+
+    #photos {
         column-count: 3;
     }
 
-    #form-section {
-        width: 65%;
-        min-height: 500px;
-        margin: 0 auto;
 
-    }
 }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-    #photo {
-        column-count: 2;
-    }
+
 
     #logo {
         font-size: 9vw;
@@ -467,14 +433,15 @@ p {
     }
 
     #menu li {
-        margin-right: 6vw;
+        margin-right: 4vw;
     }
 
     #menu {
-        margin-left: 0;
+        margin-left: 2vw;
         font-size: 5vw;
-        letter-spacing: 0.3vw;
+        letter-spacing: 0.2vw;
         line-height: 9vh;
+
     }
 
     #menu,
@@ -482,10 +449,15 @@ p {
         line-height: 15vh;
     }
 
-    #welcome {
-        font-size: 6vh;
-        text-align: center;
-        margin: 0;
-        padding-bottom: 0;
+    .ceremony {
+        font-size: 8vw;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    .reg {
+        font-size: 7vw;
     }
 }
