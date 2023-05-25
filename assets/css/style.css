@@ -182,7 +182,9 @@ p {
 
 .join-tribe {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -438,30 +440,36 @@ p {
 
 
     #logo {
-        font-size: 9vw;
-        margin-left: 5vw;
+        font-size: 4vw;
+        margin-left: 2vw;
     }
 
     #menu,
     #logo {
-        line-height: 15vh;
+        line-height: 8vh;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    h1,
+    h2 {
+        font-size: 110%;
     }
 
 
-    #menu li {
-        margin-right: 4vw;
+    #welcome {
+        font-size: 4vw;
+        text-align: center;
     }
+
 
     #menu {
-        margin-left: 2vw;
-        font-size: 5vw;
+        font-size: 2vw;
         letter-spacing: 0.2vw;
-        line-height: 9vh;
-
     }
 
     .ceremony {
-        font-size: 8vw;
+        font-size: 4vw;
     }
 
     #photos {
@@ -469,6 +477,32 @@ p {
     }
 
     .reg {
-        font-size: 7vw;
+        font-size: 4vw;
     }
 }
+
+/* For small screens sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+
+
+    #logo {
+        font-size: 8vw;
+
+    }
+
+    #menu,
+    #logo {
+        line-height: 8vh;
+        /* text-align: center; */
+        margin-bottom: 2vh;
+    }
+
+    #menu {
+        font-size: 5vw;
+        letter-spacing: 0.2vw;
+    }
+
+    #welcome {
+        font-size: 120%;
+        text-align: center;
+    }
