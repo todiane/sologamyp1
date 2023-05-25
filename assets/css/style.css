@@ -137,6 +137,7 @@ p {
 
 #welcome {
     display: flex;
+
     justify-content: center;
     align-items: center;
     margin: 2vw;
@@ -144,14 +145,28 @@ p {
 }
 
 .columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.column {
+    padding: 2vh;
+    text-align: center;
+
+}
+
+/* .columns {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 2vw;
+    margin: 0.5em;
     width: 95%;
 }
 
 .column {
     flex: 33.33%;
+    background: blue;
     text-align: center;
 }
 
@@ -166,7 +181,7 @@ p {
 
 .column2 h2 {
     padding: 2vh;
-}
+} */
 
 
 /* Information about joining Sologamy club  */
