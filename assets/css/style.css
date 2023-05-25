@@ -188,15 +188,6 @@ p {
 
 }
 
-/* #welcome1 h2 {
-    font-size: 200%;
-    padding: 24vh;
-}
-
-#welcome1>p {
-    padding: 11vh;
-    align-items: center;
-} */
 
 /* Sologamy Club Details */
 
@@ -213,7 +204,6 @@ p {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
-    /* height: 300px; */
     float: left;
     padding: 3% 0 3% 0;
     text-align: center;
@@ -476,18 +466,22 @@ p {
         column-count: 2;
     }
 
-    .reg {
+    #register h2 {
         font-size: 4vw;
     }
+
+    #register p {
+        text-align: center;
+    }
 }
+
 
 /* For small screens sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
 
 
     #logo {
-        font-size: 8vw;
-
+        font-size: 8vh;
     }
 
     #menu,
@@ -502,7 +496,44 @@ p {
         letter-spacing: 0.2vw;
     }
 
+    #hero-image {
+        display: none;
+    }
+
+
+
     #welcome {
-        font-size: 120%;
+        font-size: 5vh;
         text-align: center;
     }
+
+    .column {
+        margin: 2vh;
+    }
+
+    .column2 {
+        margin: 2vh;
+    }
+
+    .join-tribe {
+        text-align: center;
+    }
+
+    .ceremony {
+        font-size: 5vh;
+    }
+
+    #ceremonies {
+        text-align: center;
+    }
+
+    #register h2 {
+        font-size: 5vh;
+    }
+
+    #register p {
+        text-align: center;
+    }
+
+
+}
