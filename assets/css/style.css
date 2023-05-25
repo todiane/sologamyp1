@@ -156,64 +156,27 @@ p {
 
 }
 
-/* .columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0.5em;
-    width: 95%;
-}
-
-.column {
-    flex: 33.33%;
-    background: blue;
-    text-align: center;
-}
-
-.column2 {
-    flex: 33.33%;
-    text-align: center;
-}
-
-.column h2 {
-    padding: 2vh;
-}
-
-.column2 h2 {
-    padding: 2vh;
-} */
-
 
 /* Information about joining Sologamy club  */
 
 #welcome1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-
+    display: grid;
+    grid-template-columns: 1;
+    text-align: center;
 }
 
-.join-tribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.5rem;
 
+.join-tribe {
+    display: grid;
+    grid-template-columns: 1;
+    padding: 1vw;
+    text-align: center;
 }
 
 
 /* Sologamy Club Details */
 
-/* #club-details {
-    background-image: url('../images/celebration.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-} */
+
 
 #club-details div {
     color: #fafafa;
@@ -248,24 +211,21 @@ p {
     color: #3a3a3a;
 }
 
-/* Ceremonies title with text */
 
 #ceremonies {
+    display: grid;
     clear: both;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.5rem;
-
+    grid-template-columns: 1;
+    padding: 1vw;
+    text-align: center;
 }
+
 
 .ceremony {
-    margin-top: 6rem;
-    font-size: 200%;
-}
-
-#ceremonies p {
-    padding: 2vh;
+    display: grid;
+    grid-template-columns: 1;
+    padding: 1vw;
+    text-align: center;
 }
 
 
@@ -293,35 +253,30 @@ p {
 }
 
 
-/* Register Page Form */
+/* Register Page Form - title with text */
 
-/* Introduction title with text */
+#register {
+    display: grid;
+    grid-template-columns: 1;
+    padding: 1vw;
+    text-align: center;
+}
+
+
+.registration {
+    display: grid;
+    grid-template-columns: 1;
+    padding: 1vw;
+    text-align: center;
+}
+
+/* registration form */
 
 #form-section {
 
     display: flex;
 
 }
-
-
-#register {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    margin-top: 3rem;
-}
-
-#register h2 {
-    font-size: 200%;
-    padding: 2vh;
-}
-
-#register p {
-    padding: 1vh;
-}
-
-/* registration form */
 
 .signup-form {
     margin: 50px 10% 0 10%;
