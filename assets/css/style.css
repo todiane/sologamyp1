@@ -78,7 +78,7 @@ p {
 /* hero image and cover-text */
 
 #hero-outer {
-    height: 600px;
+    height: 35vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -91,9 +91,9 @@ p {
 }
 
 #hero-image {
-    height: 600px;
+    height: 50vh;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -117,7 +117,7 @@ p {
     font-size: 110%;
     font-family: Monserrat, sans-serif;
     text-transform: lowercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
     width: 400px;
     height: 200px;
@@ -146,9 +146,8 @@ p {
 .columns {
     display: flex;
     flex-wrap: wrap;
-    margin: 0.5vw;
-    width: 100%;
-
+    margin: 2vw;
+    width: 90%;
 }
 
 .column {
@@ -178,6 +177,7 @@ p {
     align-items: center;
     margin-bottom: 1.5rem;
     margin-top: 3rem;
+
 }
 
 #welcome1 h2 {
@@ -435,6 +435,12 @@ p {
         margin-left: 5vw;
     }
 
+    #menu,
+    #logo {
+        line-height: 15vh;
+    }
+
+
     #menu li {
         margin-right: 4vw;
     }
@@ -445,11 +451,6 @@ p {
         letter-spacing: 0.2vw;
         line-height: 9vh;
 
-    }
-
-    #menu,
-    #logo {
-        line-height: 15vh;
     }
 
     .ceremony {
