@@ -176,8 +176,6 @@ p {
 
 /* Sologamy Club Details */
 
-
-
 #club-details div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -336,6 +334,9 @@ p {
 /* For large to medium screens sizes from 1300px wide and down */
 @media screen and (max-width: 1300px) {
 
+    #cover-text {
+        left: 0;
+    }
 
     #club-intro {
         width: 65%;
@@ -358,17 +359,9 @@ p {
         line-height: 7vh;
     }
 
-
     #cover-text {
         left: 0px;
     }
-
-    .columns {
-        display: flex;
-        flex-flow: column nowrap;
-
-    }
-
 
     #club-details div {
         width: 100%;
@@ -383,11 +376,6 @@ p {
 
     }
 
-    .ceremony {
-        margin-top: 2rem;
-
-    }
-
     #photos {
         column-count: 3;
     }
@@ -398,6 +386,11 @@ p {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
 
+
+    #logo {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
 
     #logo {
         font-size: 4vw;
@@ -418,7 +411,7 @@ p {
 
 
     #welcome {
-        font-size: 4vw;
+        font-size: 2vh;
         text-align: center;
     }
 
@@ -464,6 +457,12 @@ p {
     #menu {
         font-size: 5vw;
         letter-spacing: 0.2vw;
+    }
+
+    .columns {
+        display: flex;
+        flex-flow: column nowrap;
+
     }
 
     #hero-image {
