@@ -144,6 +144,7 @@ p {
     font-size: 200%;
 }
 
+
 .columns {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -161,14 +162,13 @@ p {
 
 #welcome1 {
     display: grid;
-    grid-template-columns: 1;
     text-align: center;
+    margin-top: 2vh;
 }
 
 
 .join-tribe {
     display: grid;
-    grid-template-columns: 1;
     padding: 1vw;
     text-align: center;
 }
@@ -209,6 +209,7 @@ p {
     color: #3a3a3a;
 }
 
+/* Ceremonies Page */
 
 #ceremonies {
     display: grid;
