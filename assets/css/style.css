@@ -191,14 +191,14 @@ p {
 
 /* Sologamy Club Details */
 
-#club-details {
+/* #club-details {
     background-image: url('../images/celebration.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
-}
+} */
 
 #club-details div {
     color: #fafafa;
@@ -208,7 +208,7 @@ p {
     float: left;
     padding: 3% 0 3% 0;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 1vh solid #ffffff;
     box-sizing: border-box;
     line-height: 5vh;
 }
