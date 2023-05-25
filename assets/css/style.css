@@ -500,7 +500,11 @@ p {
         display: none;
     }
 
+    #cover-text {
+        width: 100%;
+        height: auto;
 
+    }
 
     #welcome {
         font-size: 5vh;
