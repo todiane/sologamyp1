@@ -218,7 +218,6 @@ p {
 #ceremonies {
     display: grid;
     clear: both;
-    grid-template-columns: 1;
     padding: 1vw;
     text-align: center;
 }
@@ -226,7 +225,6 @@ p {
 
 .ceremony {
     display: grid;
-    grid-template-columns: 1;
     padding: 1vw;
     text-align: center;
 }
@@ -260,6 +258,7 @@ p {
 
 #register {
     display: grid;
+    clear: both;
     padding: 1vw;
     text-align: center;
 }
@@ -524,7 +523,7 @@ input.larger {
 
     #register p {
         text-align: center;
-        clear: both;
+
     }
 
 
