@@ -469,56 +469,56 @@ input.larger {
         display: flex;
         flex-flow: column nowrap;
 
-    }
+        /* }
 
     #hero-outer {
         height: 42vh;
 
+    } */
+
+        #hero-image {
+            display: none;
+        }
+
+        #cover-text {
+            width: 100%;
+            height: auto;
+
+        }
+
+        #welcome {
+            font-size: 4vh;
+            text-align: center;
+        }
+
+        .column {
+            margin: 2vh;
+        }
+
+        .column2 {
+            margin: 2vh;
+        }
+
+        .join-tribe {
+            text-align: center;
+        }
+
+        .ceremony {
+            font-size: 4vh;
+            padding-top: 3vh;
+        }
+
+        #ceremonies {
+            text-align: center;
+        }
+
+        #register h2 {
+            font-size: 4vh;
+        }
+
+        #register p {
+            text-align: center;
+        }
+
+
     }
-
-    #hero-image {
-        display: none;
-    }
-
-    #cover-text {
-        width: 100%;
-        height: auto;
-
-    }
-
-    #welcome {
-        font-size: 4vh;
-        text-align: center;
-    }
-
-    .column {
-        margin: 2vh;
-    }
-
-    .column2 {
-        margin: 2vh;
-    }
-
-    .join-tribe {
-        text-align: center;
-    }
-
-    .ceremony {
-        font-size: 4vh;
-        padding-top: 3vh;
-    }
-
-    #ceremonies {
-        text-align: center;
-    }
-
-    #register h2 {
-        font-size: 4vh;
-    }
-
-    #register p {
-        text-align: center;
-    }
-
-
-}
