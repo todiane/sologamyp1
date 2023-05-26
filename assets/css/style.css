@@ -446,8 +446,8 @@ input.larger {
 }
 
 
-/* For small screens sizes from 420px wide and down */
-@media screen and (max-width: 420px) {
+/* For small screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
 
 
     #logo {
