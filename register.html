@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Sologamy Club Registration</title>
-
+    <style>
+        input.larger {
+            width: 1.5vw;
+            height: 1.5vh;
+        }
+    </style>
 
 </head>
 <!--Navigation area-->
@@ -54,7 +59,7 @@
     <!-- Title and introduction to page-->
     <section id="register">
         <h2 class="registration">Register</h2>
-        
+
         <div>
             <p>Interested in joining The Sologamy Club? Complete the form below and hit the "Sign Me Up!" button. Our
                 Membership Co-ordinator
@@ -84,19 +89,19 @@
             <input type="radio" id="both" name="running_preference" value="both" required>
             <p class="details">How did you hear about us?</p>
             <div>
-                <input type="checkbox" id="friend-checkbox" name="friend">
+                <input type="checkbox" class="larger" id="friend-checkbox" name="friend">
                 <label for="friend-checkbox">Friend/Existing Member</label>
             </div>
             <div>
-                <input type="checkbox" id="search-checkbox" name="search">
+                <input type="checkbox" class="larger" id="search-checkbox" name="search">
                 <label for="search-checkbox">Search Engine</label>
             </div>
             <div>
-                <input type="checkbox" id="social-checkbox" name="social">
+                <input type="checkbox" class="larger" id="social-checkbox" name="social">
                 <label for="social-checkbox">Social Media</label>
             </div>
             <div>
-                <input type="checkbox" id="flyer-checkbox" name="flyer">
+                <input type="checkbox" class="larger" id="flyer-checkbox" name="flyer">
                 <label for="flyer-checkbox">Flyer/Invite</label>
             </div>
 
