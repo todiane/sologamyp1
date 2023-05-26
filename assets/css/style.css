@@ -490,9 +490,10 @@ input.larger {
     }
 
     #welcome {
-        font-size: 4vh;
+        font-size: 3vh;
         text-align: center;
         clear: both;
+        line-height: 1.5;
     }
 
     .column {
@@ -508,7 +509,7 @@ input.larger {
     }
 
     .ceremony {
-        font-size: 4vh;
+        font-size: 3vh;
         padding-top: 3vh;
     }
 
@@ -517,12 +518,13 @@ input.larger {
     }
 
     #register h2 {
-        font-size: 4vh;
-        clear: both;
+        font-size: 3vh;
+
     }
 
     #register p {
         text-align: center;
+        clear: both;
     }
 
 
