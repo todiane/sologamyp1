@@ -196,6 +196,31 @@ p {
     color: #fafafa;
 }
 
+/* External links to videos */
+
+
+#external {
+    display: flex;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+
+}
+
+
+.video {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    padding: 20px;
+
+}
+
+.video {
+    padding: 2vh;
+
+}
+
 /* social networks footer */
 
 .social-networks {
@@ -467,11 +492,6 @@ input.larger {
         letter-spacing: 0.2vw;
     }
 
-    .columns {
-        display: flex;
-        flex-flow: column nowrap;
-
-    }
 
     #hero-outer {
         display: none;
@@ -489,10 +509,17 @@ input.larger {
     }
 
     #welcome {
-        font-size: 3vh;
+        font-size: 5vh;
         text-align: center;
         clear: both;
         line-height: 1.5;
+    }
+
+
+    .columns {
+        display: flex;
+        flex-flow: column nowrap;
+
     }
 
     .column {
@@ -507,8 +534,20 @@ input.larger {
         text-align: center;
     }
 
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+        line-height: 1.5;
+
+
+    }
+
+    #external h2 {
+        margin-top: 3vh;
+    }
+
     .ceremony {
-        font-size: 3vh;
+        font-size: 5vh;
         padding-top: 3vh;
     }
 
@@ -517,7 +556,7 @@ input.larger {
     }
 
     #register h2 {
-        font-size: 3vh;
+        font-size: 5vh;
 
     }
 
