@@ -79,20 +79,19 @@ The form on the register page has been checked and works. The success message sh
 
 ### **Validator Testing**
 
-HTML
-No errors were found when the code was entered into the offical ![W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftodiane.github.io%2Fsologamyp1%2F)
+***HTML***
+No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)
 
-CSS
+***CSS***
 No errors were found when the code was entered into the official Jigsaw validator
 
 ![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)
 
-Accessibility
+***Accessibility***
 
 The site was run through the DevTools Lighthouse section and deemed to be 100% for accessibility which confirms that the font and colors chosen are easy to read
 
 ![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
-
 
 ### **Unfixed Bugs**
 
