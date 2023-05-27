@@ -69,7 +69,9 @@ There are many external stories, news items, documentaries and videos on the top
 
 The website has been tested to work in different browers including Edge, Firefox and Chrome
 
-Using DevTools I was able to check the responsiveness of the website on different screens and adjust the code as needed to ensure the content was still readable and accessible.
+While using the original html and css code of the Love Running website on the introduction section of the index page removing the central image and replacing it with text did not work. The section would not center and was below the left and right areas at times. That was changed to using a flexbox for the three areas. Using rows I separated the six items into two rows, however the text spread out across the site and I could not leave a space inbetween each title. Finally, I used a grid. With the grid I was able to leave column space and separate each item so it looked neater.
+
+Using DevTools I was able to check the responsiveness of the website on different screens and adjust the code as needed to ensure the content was still readable and accessible. On the ceremonies page I reduced the 4 column images to 3 for screens under 1058px and down to 2 columns for screens under 800px. The @media screen sizes were decided based on what the website did at certain sizes and once it changed dramatically a smaller @media section was created until it fit perfectly on anything under 400px.
 
 All links to external pages have been checked.
 
