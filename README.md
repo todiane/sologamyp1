@@ -24,17 +24,17 @@ The Home page includes a full-width image of a hand with a ring and a reminder t
 
 Introduction: This is an information website so contains more text than images and instantly begins with information on Sologamy explaining what it is and why people embrace it as an important life purpose.
 
-![Image of introduction to Sologamy](assets/images/intro-sologamy.webp)
+![Image of introduction to Sologamy](assets/images/rm-intro-sologamy.webp)
 
 Joining the club: Further down users are invited to join the club and five information boxes outline the benefits of being a member.
 
-![Image of information on joining the club](assets/images/jointribe.webp)
+![Image of information on joining the club](assets/images/rm-jointribe.webp)
 
 Videos to watch: The last section of information provides external links to two videos with a brief explaination of the topic of each video. External links open in a new window.
 
 The footer section contains links to the Sologamy Club social media pages.
 
-![Image of links to video and social media footer](assets/images/videos-footer.webp)
+![Image of links to video and social media footer](assets/images/rm-videos-footer.webp)
 
 
 ***Ceremonies Page***
@@ -67,8 +67,13 @@ There are many external stories, news items, documentaries and videos on the top
 
 ### **Testing**
 
+The website has been tested to work in different browers including Edge, Firefox and Chrome
 
-ADD TEXT HERE - need to write out testing
+Using DevTools I was able to check the responsiveness of the website on different screens and adjust the code as needed to ensure the content was still readable and accessible.
+
+All links to external pages have been checked.
+
+The form on the register page has been checked and works. The success message shows at the end. An @ must be used in the email field otherwise an error message is shown.
 
 ### **Validator Testing**
 
@@ -87,7 +92,7 @@ The site was run through the DevTools Lighthouse section and deemed to be 100% f
 ![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
 
 
-Unfixed Bugs
+### **Unfixed Bugs**
 
 No unfixed bugs to report.
 
@@ -109,4 +114,3 @@ The live link can be found here - <https://todiane.github.io/sologamyp1/>
 The Sologamy Club header, footer and structure of this website has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 Photos on the ceremonies page have been downloaded from <https://pexels.com> and the website <https://convertio.co>  was used to convert the png and jpg images into a webp image.
-*** LINK TO LOVE RUNNING PROJECT A
