@@ -2,6 +2,7 @@
 # Sologamy Club
 
 The Sologamy club is a site that aims to support anyone looking to **embrace the idea of marriage by a person to themself** by providing information and support on the topic. The website targets anyone looking to learn more about sologamy and also encourages those looking to run their own event to register and become a member where additonal support is available.
+![Image of Register Page](assets/images/readme-img.webp/)
 
 ## Features
 
@@ -15,46 +16,48 @@ On the right-hand side of the website are the navigation links which are include
 
 ### **Website Pages**
 
-Index / Home Page
+***Index / Home Page***
 
 The Home page includes a full-width image of a hand with a ring and a reminder to embrace self-love as the greatest love of all. The lyrics have been taken from a song by Whitney Houston.
-IMAGE OF TOP IMAGE
+
+![Image of full width header](assets/images/rm-sologamy-header.webp)
 
 Introduction: This is an information website so contains more text than images and instantly begins with information on Sologamy explaining what it is and why people embrace it as an important life purpose.
 
-IMAGE OF SECTION
+![Image of introduction to Sologamy](assets/images/intro-sologamy.webp)
 
 Joining the club: Further down users are invited to join the club and five information boxes outline the benefits of being a member.
 
-IMAGE OF SECTION
+![Image of information on joining the club](assets/images/jointribe.webp)
 
 Videos to watch: The last section of information provides external links to two videos with a brief explaination of the topic of each video. External links open in a new window.
 
-IMAGE OF SECTION
-
 The footer section contains links to the Sologamy Club social media pages.
 
-IMAGE OF SECTION
+![Image of links to video and social media footer](assets/images/videos-footer.webp)
 
-Ceremonies
 
-The ceremonies page provides potential users with evidence of club members and how they spent their day. Different images were used to include a variety of people from someone taking the journey alone to others celebrating with family and some with friends.
+***Ceremonies Page***
+
+The ceremonies page provides potential users with evidence of club members and how they spent their day. It doese not include the main header that appears on the other two pages. Different images were used to include a variety of people from someone taking the journey alone to others celebrating with family and some with friends.
 
 This section provides the social proof a user needs before joining if they are considering running their own event.
 
 Titles have been added to each photo which provides uers with a brief explaination of what is happening in the photo they are looking at and is accessible when they move their mouse over a photo. This only works if you are using a mouse so will not show on tech that doesn't include one e.g. mobiles.
 
-IMAGE OF CEREMONIES PAGE
+![Image of Ceremonies Page](assets/images/rm-ceremonies.webp)
 
 At the end of the page are links to our social media profiles.
 
 In the future the aim is to include videos that members have shared on TickTok and/or YouTube to this page.
 
-Registration Page
+***Register Page***
 
-This page has been kept brief in order to encourage users to take one action without the need to read loads of content. There is a registration form which asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups. It also includes a question relevant to our business about how they found us but this is not a required field.
+This page has been kept brief in order to encourage users to take one action without the need to read loads of content. There is the header which appears on the Home page. The registration form asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups. 
 
-IMAGE OF REGISTRATION PAGE
+It also includes a question relevant to our business about how they found the website but this is not a required field.
+
+![Image of Register Page](assets/images/rm-register.webp/)
 
 At the end of the page are links to our social media profiles.
 
