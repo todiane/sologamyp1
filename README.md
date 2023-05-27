@@ -68,20 +68,24 @@ There are many external stories, news items, documentaries and videos on the top
 ### **Testing**
 
 
-ADD TEXT HERE
+ADD TEXT HERE - need to write out testing
 
 ### **Validator Testing**
 
 HTML
-No errors were found when the code was entered into the offical W3C Validator
+No errors were found when the code was entered into the offical ![W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftodiane.github.io%2Fsologamyp1%2F)
 
 CSS
 No errors were found when the code was entered into the official Jigsaw validator
 
+![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)
+
 Accessibility
 
-The site was run through the DevTools Lighthouse section and deemed to be XX% for accessibility which confirms that the font and colors chosen are easy to read
-IMAGE OF ACCESSIBILITY SCORE HERE
+The site was run through the DevTools Lighthouse section and deemed to be 100% for accessibility which confirms that the font and colors chosen are easy to read
+
+![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
+
 
 Unfixed Bugs
 
@@ -102,6 +106,7 @@ The live link can be found here - <https://todiane.github.io/sologamyp1/>
 
 ### **Credits**
 
-The Sologamy Club header, footer and structure of this website has been created using html and css code elements from the Code Instiutute Love Running website. The Love Running three page website has been recreated for this project.
-Photos on the ceremonies page have been downloaded from pexels.com and the website <https://convertio.co> </a> was used to convert the jpg into a webp image.
-*** LINK TO LOVE RUNNING PROJECT AND PEXELS.COM/
+The Sologamy Club header, footer and structure of this website has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
+
+Photos on the ceremonies page have been downloaded from <https://pexels.com> and the website <https://convertio.co>  was used to convert the png and jpg images into a webp image.
+*** LINK TO LOVE RUNNING PROJECT A
