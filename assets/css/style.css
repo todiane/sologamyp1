@@ -332,7 +332,7 @@ p {
 }
 
 .signup-form>h2 {
-    color: #000;
+    color: #47754e;
     margin-bottom: 20px;
 
 }
@@ -376,7 +376,7 @@ input.larger {
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #47754e;
     color: #000;
 }
 
