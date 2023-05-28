@@ -125,3 +125,5 @@ The live link can be found here - <https://todiane.github.io/sologamyp1/>
 The Sologamy Club header, footer and structure of this website has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 Photos on the ceremonies page have been downloaded from <https://pexels.com> and the website <https://convertio.co>  was used to convert the png and jpg images into a webp image to ensure they load quickly when the website is deployed.
+
+Font awesome icons were used from <https://fontawesome.com>
