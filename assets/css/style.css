@@ -182,7 +182,6 @@ p {
 
 #club-details div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     float: left;
     padding: 3% 0 3% 0;
@@ -190,6 +189,26 @@ p {
     border: 1vh solid #ffffff;
     box-sizing: border-box;
     line-height: 5vh;
+}
+
+.details-box {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.activities {
+    background-color: rgba(71, 117, 78);
+}
+
+.online {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.resources {
+    background-color: rgba(71, 117, 78);
+}
+
+.start {
+    background-color: rgba(0, 0, 0, .6);
 }
 
 #club-details h2 {

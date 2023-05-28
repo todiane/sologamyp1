@@ -9,6 +9,7 @@ Project Aims to:
 - outline benefits of being a member, both offline as meetups and online, to encourage users to join.
 - provide social proof of people taking part in a sologamy ceremony with members permission.
 - set up a working registration form so users can register to join.
+- encourage anyone interested in starting their own offline sologamy group to become a member.
 
 ![Image of Register Page](assets/images/readme-img.webp/)
 
@@ -72,7 +73,7 @@ At the end of the page are links to our social media profiles.
 
 There are many external stories, news items, documentaries and videos on the topic and a page outlining these is a potential feature idea.
 
-Create a download page for members only that contains eBooks, planners and other material that will help them organise their day.
+A page for anyone looking to setup their own Sologamy meetup group with images and videos of members who have set up their own group as social proof.
 
 ### **Testing**
 
@@ -81,6 +82,8 @@ The website has been tested to work in different browers including Edge, Firefox
 While using the original html and css code of the Love Running website on the introduction section of the index page removing the central image and replacing it with text did not work. The section would not center and was below the left and right areas at times. That was changed to using a flexbox for the three areas. Using rows I separated the six items into two rows, however the text spread out across the site and I could not leave a space inbetween each title. Finally, I used a grid. With the grid I was able to leave column space and separate each item so it looked neater.
 
 Using DevTools I was able to check the responsiveness of the website on different screens and adjust the code as needed to ensure the content was still readable and accessible. On the ceremonies page I reduced the 4 column images to 3 for screens under 1058px and down to 2 columns for screens under 800px.
+
+I used the ColorZilla pen to choose a different colour for the "join our tribe" boxes that ensured readability/accessibility remained high and it matched with the green in the image. Code color was tested on codepen.io before adding to the css file.
 
 The @media screen sizes were decided upon based on what the website did at certain sizes and once it changed dramatically a smaller @media section was created until it fit perfectly on anything under 500px.
 
