@@ -45,7 +45,7 @@ Joining the club: Further down users are invited to join the club and five infor
 
 ![Image of information on joining the club](assets/images/rm-jointribe.webp)
 
-Videos to watch: The last section of information provides external links to two videos with a brief explaination of the topic of each video. External links open in a new window.
+Videos to watch: The last section of information provides two videos on the topic. One taken from Vimeo and the other from YouTube.
 
 The footer section contains links to the Sologamy Club social media pages.
 
@@ -138,3 +138,5 @@ Photos on the ceremonies page have been downloaded from <https://pexels.com> and
 Font awesome icons were used from <https://fontawesome.com>
 
 The quote used on the header image is a line from the chrous of the song Greatest Love of All by Whitney Houston.
+
+Videos on the topic taken from Vimeo and YouTube.
