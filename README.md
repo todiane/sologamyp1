@@ -75,6 +75,10 @@ It also includes a question relevant to our business about how they found the we
 
 At the end of the page are links to social media profiles.
 
+***Success Page***
+
+This page has been kept brief in order to encourage users to take one action - sign up. There is the header which appears on the Home page. The registration form asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups.
+
 ### **Features Left to Implement**
 
 There are many external stories, news items, documentaries and videos on the topic and a page outlining these is a potential feature idea.
@@ -95,7 +99,7 @@ The @media screen sizes were decided upon based on what the website did at certa
 
 All links to external pages have been checked.
 
-The form on the register page has been checked and works. The success message shows at the end. An @ must be used in the email field otherwise an error message is shown.
+The form on the register page has been checked and works. The success message shows once the form has been completed. An @ must be used in the email field otherwise an error message is shown.
 
 ### **Validator Testing**
 
@@ -139,4 +143,4 @@ Font awesome icons were used from <https://fontawesome.com>
 
 The quote used on the header image is a line from the chrous of the song Greatest Love of All by Whitney Houston.
 
-Videos on the topic taken from Vimeo and YouTube.
+Videos on the topic taken from Vimeo and YouTube. CSS code to ensure videos remain responsive at size 1300px and below obtained from CSS Tricks <https://css-tricks.com/fluid-width-video/>

@@ -223,13 +223,12 @@ p {
     display: flex;
     clear: both;
     justify-content: center;
-    margin: 2vw;
 
 }
 
 .video {
     display: grid;
-    padding: 5vh;
+    padding: 2vh;
 }
 
 
@@ -396,12 +395,26 @@ input.larger {
     #external {
         display: flex;
         flex-flow: column nowrap;
+        justify-content: center;
     }
 
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-/* For medium screens sizes from 1058px wide and down */
-@media screen and (max-width: 1058px) {
+/* For medium screens sizes from 1175px wide and down */
+@media screen and (max-width: 1175px) {
 
     #menu,
     #logo {
@@ -433,6 +446,21 @@ input.larger {
     #external {
         display: flex;
         flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     #photos {
@@ -478,10 +506,24 @@ input.larger {
         text-align: center;
     }
 
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
 
     .video {
-        height: auto;
-        width: auto;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     .ceremony {
@@ -502,8 +544,8 @@ input.larger {
 }
 
 
-/* For small screens sizes from 640px wide and down */
-@media screen and (max-width: 640px) {
+/* For small screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
 
 
     #logo {
@@ -557,16 +599,30 @@ input.larger {
         margin: 2vh;
     }
 
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
     .join-tribe {
         text-align: center;
     }
 
-
-    .video {
-        width: 50%;
-        height: 50%;
-    }
 
     #external h2 {
         margin-top: 3vh;
