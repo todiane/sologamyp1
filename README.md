@@ -77,7 +77,9 @@ At the end of the page are links to social media profiles.
 
 ***Success Page***
 
-This page does not link to any part of the site. This is the page that new members are sent to after their register. There is the header which appears on the Home page and the footer area.
+This page does not show up in the main navigation of the site. This is the page that new members are sent to after they complete the registration form. There is the header which appears on the Home page and the footer area.
+
+![Image of links to video and social media footer](assets/images/rm-success.webp)
 
 ### **Features Left to Implement**
 
