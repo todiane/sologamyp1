@@ -215,29 +215,21 @@ p {
     color: #fafafa;
 }
 
-/* External links to videos */
-
+/* Two External Videos */
 
 #external {
     display: flex;
     clear: both;
     justify-content: center;
-    align-items: center;
     margin: 2vw;
 
 }
 
-
 .video {
     display: grid;
-    padding: 20px;
-
+    padding: 5vh;
 }
 
-.video {
-    padding: 2vh;
-
-}
 
 /* social networks footer */
 
@@ -399,6 +391,11 @@ input.larger {
         flex-flow: column nowrap;
     }
 
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
 }
 
 /* For medium screens sizes from 1058px wide and down */
@@ -420,10 +417,20 @@ input.larger {
 
     }
 
+    .columns {
+        display: grid;
+
+    }
+
     .details-box {
         display: flex;
         justify-content: space-around;
 
+    }
+
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
     }
 
     #photos {
@@ -459,6 +466,10 @@ input.larger {
         font-size: 110%;
     }
 
+    #menu {
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+    }
 
     #welcome {
         font-size: 2vh;
@@ -466,9 +477,9 @@ input.larger {
     }
 
 
-    #menu {
-        font-size: 2vw;
-        letter-spacing: 0.2vw;
+    .video {
+        height: auto;
+        width: auto;
     }
 
     .ceremony {
@@ -489,8 +500,8 @@ input.larger {
 }
 
 
-/* For small screens sizes from 500px wide and down */
-@media screen and (max-width: 500px) {
+/* For small screens sizes from 640px wide and down */
+@media screen and (max-width: 640px) {
 
 
     #logo {
@@ -544,20 +555,15 @@ input.larger {
         margin: 2vh;
     }
 
-    .column2 {
-        margin: 2vh;
-    }
 
     .join-tribe {
         text-align: center;
     }
 
-    #external {
-        display: flex;
-        flex-flow: column nowrap;
-        line-height: 1.5;
 
-
+    .video {
+        width: 50%;
+        height: 50%;
     }
 
     #external h2 {
