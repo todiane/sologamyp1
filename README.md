@@ -77,7 +77,7 @@ At the end of the page are links to social media profiles.
 
 ***Success Page***
 
-This page has been kept brief in order to encourage users to take one action - sign up. There is the header which appears on the Home page. The registration form asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups.
+This page does not link to any part of the site. This is the page that new members are sent to after their register. There is the header which appears on the Home page and the footer area.
 
 ### **Features Left to Implement**
 
