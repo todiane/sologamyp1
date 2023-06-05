@@ -21,7 +21,13 @@ This website has been built using a reponsive design. It is a three-page website
 
 Featured at the top of each page, the navigation includes the name of the club on the left - SOLOGAMY CLUB - which also links to the top of the index page.
 
-On the right-hand side of the website are the navigation links which are included on all three pages. Home - linking to the index page, Ceremonies - providing photos of members and Register - where potential members can join. The linked menu allows for easy access to each page without having to click on the back button. There is also an internal link on the index page to the ceremonies page and an internal link on the ceremonies page to the registration page allowing for an easy flow for users to go from one point to another without needing to scroll back to the top.
+On the right-hand side of the website are the navigation links which are included on all three pages.
+
+Home - linking to the index page.
+Ceremonies - providing photos of members.
+Register - where potential members can join.
+
+The linked menu allows for easy access to each page without having to click on the back button. There is also an internal link on the index page to the ceremonies page and an internal link on the ceremonies page to the registration page allowing for an easy flow for users to go from one point to another without needing to scroll back to the top.
 
 ### **Website Pages**
 
@@ -47,7 +53,7 @@ The footer section contains links to the Sologamy Club social media pages.
 
 ***Ceremonies Page***
 
-The ceremonies page provides potential users with evidence of club members and how they spent their day. It doese not include the main header that appears on the other two pages. Different images were used to include a variety of people from someone taking the journey alone to others celebrating with family and some with friends.
+The ceremonies page provides potential users with evidence of club members and how they spent their day. It does not include the main header that appears on the other two pages. Different images were used to include a variety of people from someone taking the journey alone to others celebrating with family and some with friends.
 
 This section provides the social proof a user needs before joining if they are considering running their own event.
 
@@ -55,19 +61,19 @@ Titles have been added to each photo which provides uers with a brief explainati
 
 ![Image of Ceremonies Page](assets/images/rm-ceremonies.webp)
 
-At the end of the page are links to our social media profiles.
+At the end of the page are links to social media profiles.
 
 In the future the aim is to include videos that members have shared on TickTok and/or YouTube to this page.
 
 ***Register Page***
 
-This page has been kept brief in order to encourage users to take one action without the need to read loads of content. There is the header which appears on the Home page. The registration form asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups.
+This page has been kept brief in order to encourage users to take one action - sign up. There is the header which appears on the Home page. The registration form asks for minimal details and includes reference to whether they wish to take part in offline meetups and/or online meetups.
 
 It also includes a question relevant to our business about how they found the website but this is not a required field.
 
 ![Image of Register Page](assets/images/rm-register.webp/)
 
-At the end of the page are links to our social media profiles.
+At the end of the page are links to social media profiles.
 
 ### **Features Left to Implement**
 
@@ -77,9 +83,9 @@ A page for anyone looking to setup their own Sologamy meetup group with images a
 
 ### **Testing**
 
-The website has been tested to work in different browers including Edge, Firefox and Chrome
+The website has been tested to work in different browers including Edge, Firefox and Chrome.
 
-While using the original html and css code of the Love Running website on the introduction section of the index page removing the central image and replacing it with text did not work. The section would not center and was below the left and right areas at times. That was changed to using a flexbox for the three areas. Using rows I separated the six items into two rows, however the text spread out across the site and I could not leave a space inbetween each title. Finally, I used a grid. With the grid I was able to leave column space and separate each item so it looked neater.
+While using the original html and css code of the Love Running website on the introduction section of the index page removing the central image and replacing it with text did not work. The section would not center and was below the left and right areas at times. That was changed to using a flexbox for the three areas. Using rows the six items were separated into two rows, however the text spread out across the site and I could not leave a space inbetween each title. Finally, I used a grid. With the grid I was able to leave column space and separate each item so it looked neater.
 
 Using DevTools I was able to check the responsiveness of the website on different screens and adjust the code as needed to ensure the content was still readable and accessible. On the ceremonies page I reduced the 4 column images to 3 for screens under 1058px and down to 2 columns for screens under 800px.
 
@@ -103,7 +109,7 @@ No errors were found when the code was entered into the official Jigsaw validato
 
 ***Accessibility***
 
-The site was run through the DevTools Lighthouse section and deemed to be 100% for accessibility which confirms that the font and colors chosen are easy to read
+The site was run through the DevTools Lighthouse section and deemed to be 100% for accessibility which confirms that the font and colors chosen are easy to read. A robots.txt file was added to allow crawling by the search engines.
 
 ![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
 
@@ -130,3 +136,5 @@ The Sologamy Club header, footer and structure of this website has been created 
 Photos on the ceremonies page have been downloaded from <https://pexels.com> and the website <https://convertio.co>  was used to convert the png and jpg images into a webp image to ensure they load quickly when the website is deployed.
 
 Font awesome icons were used from <https://fontawesome.com>
+
+The quote used on the header image is a line from the chrous of the song Greatest Love of All by Whitney Houston.
