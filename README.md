@@ -1,13 +1,12 @@
-
 # Sologamy Club
 
-The Sologamy club is a site that aims to support anyone looking to **embrace the idea of marriage by a person to themself** by providing information and support on the topic. The website targets anyone looking to learn more about sologamy and also encourages those looking to run their own event to register and become a member where additonal support and the opportunity to meet other members is available both offline in local venues and online via zoom.
+The Sologamy club is a site that aims to support anyone looking to **embrace the idea of marriage by a person to themself** by providing information and support on the topic. The website targets anyone looking to learn more about sologamy. The website encourages those looking to create their own ceremony to register and become a member where additonal support is available. This support includes downloadable material as well as an opportunity to meet other members, both offline in local venues and online via zoom.
 
 Project Aims to:
 
 - provide information on the topic of Sologamy: what it is and why people embrace it.
 - outline benefits of being a member, both offline as meetups and online, to encourage users to join.
-- provide social proof of people taking part in a sologamy ceremony with members permission.
+- provide social proof of members taking part in a sologamy ceremony.
 - set up a working registration form so users can register to join.
 - encourage anyone interested in starting their own offline sologamy group to become a member.
 
@@ -19,15 +18,15 @@ This website has been built using a reponsive design. It is a three-page website
 
 ### **Navigation**
 
-Featured at the top of each page, the navigation includes the name of the club on the left - SOLOGAMY CLUB - which also links to the top of the index page.
+Featured at the top of each page, the navigation includes the name of the club on the left - SOLOGAMY CLUB - which also links to the index page.
 
-On the right-hand side of the website are the navigation links which are included on all three pages.
+On the top right-hand side of the website are the navigation links which are included on all three pages.
 
 Home - linking to the index page.
 Ceremonies - providing photos of members.
 Register - where potential members can join.
 
-The linked menu allows for easy access to each page without having to click on the back button. There is also an internal link on the index page to the ceremonies page and an internal link on the ceremonies page to the registration page allowing for an easy flow for users to go from one point to another without needing to scroll back to the top.
+The linked menu allows for easy access to each page without having to click on the back button. There is also an internal link on the index page to the ceremonies page and an internal link on the ceremonies page to the registration page allowing for an easy flow for users to go from one point to another without needing to scroll back to the top navigation.
 
 ### **Website Pages**
 
@@ -89,7 +88,7 @@ A page for anyone looking to setup their own Sologamy meetup group with images a
 
 ### **Testing**
 
-The website has been tested to work in different browers including Edge, Firefox and Chrome.
+The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
 While using the original html and css code of the Love Running website on the introduction section of the index page removing the central image and replacing it with text did not work. The section would not center and was below the left and right areas at times. That was changed to using a flexbox for the three areas. Using rows the six items were separated into two rows, however the text spread out across the site and I could not leave a space inbetween each title. Finally, I used a grid. With the grid I was able to leave column space and separate each item so it looked neater.
 
@@ -97,7 +96,7 @@ Using DevTools I was able to check the responsiveness of the website on differen
 
 I used the ColorZilla pen to choose a different colour for the "join our tribe" boxes that ensured readability/accessibility remained high and it matched with the green in the image. Code color was tested on codepen.io before adding to the css file.
 
-The @media screen sizes were decided upon based on what the website did at certain sizes and once it changed dramatically a smaller @media section was created until it fit perfectly on anything under 500px.
+The @media screen sizes were decided upon based on what the website did at certain sizes and once it changed dramatically a smaller @media section was created until it fit perfectly on anything under 500px. The header image was removed for smaller screens.
 
 All links to external pages have been checked.
 
