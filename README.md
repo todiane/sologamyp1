@@ -145,3 +145,9 @@ Font awesome icons were used from <https://fontawesome.com>
 The quote used on the header image is a line from the chrous of the song Greatest Love of All by Whitney Houston.
 
 Videos on the topic taken from Vimeo and YouTube. CSS code to ensure videos remain responsive at size 1300px and below obtained from CSS Tricks <https://css-tricks.com/fluid-width-video/>
+
+### **Updated August 2023**
+
+- Added a 404 error page
+- Added favicon
+- Sticky footer added
