@@ -142,7 +142,6 @@ p {
 
 #welcome {
     display: flex;
-
     justify-content: center;
     align-items: center;
     margin: 2vw;
@@ -663,12 +662,5 @@ input.larger {
 
     }
 
-    /* #about-article {
-        padding-top: 3vh;
-    } */
 
- .about-article {
-    font-size: 3vh;
-    padding-top: 7vh;
- }
 }
