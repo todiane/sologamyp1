@@ -375,6 +375,19 @@ input.larger {
     color: #000;
 }
 
+/* More About Sologamy page */
+
+.article {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.about-article {
+    display: grid;
+    padding: 1vw;
+    text-align: center;
+}
+
 /* Media queries */
 
 /* For large to medium screens sizes from 1300px wide and down */
@@ -650,5 +663,12 @@ input.larger {
 
     }
 
+    /* #about-article {
+        padding-top: 3vh;
+    } */
 
+ .about-article {
+    font-size: 3vh;
+    padding-top: 7vh;
+ }
 }
