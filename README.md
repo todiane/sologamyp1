@@ -1,4 +1,15 @@
-# Sologamy Club
+Table Of Contents
+
+- [Features](#features)
+  - [**Navigation**](#navigation)
+  - [**Website Pages**](#website-pages)
+  - [**Features Left to Implement**](#features-left-to-implement)
+- [**Testing**](#testing)
+- [**Validator Testing**](#validator-testing)
+- [**Unfixed Bugs**](#unfixed-bugs)
+- [**Deployment**](#deployment)
+- [**Credits**](#credits)
+- [**Updated August 2023**](#updated-august-2023)
 
 The Sologamy club is a site that aims to support anyone looking to **embrace the idea of marriage by a person to themself** by providing information and support on the topic. The website targets anyone looking to learn more about sologamy. The website encourages those looking to create their own ceremony to register and become a member where additonal support is available. This support includes downloadable material as well as an opportunity to meet other members, both offline in local venues and online via zoom.
 
@@ -86,7 +97,7 @@ There are many external stories, news items, documentaries and videos on the top
 
 A page for anyone looking to setup their own Sologamy meetup group with images and videos of members who have set up their own group as social proof.
 
-### **Testing**
+## **Testing**
 
 The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
@@ -102,7 +113,7 @@ All links to external pages have been checked.
 
 The form on the register page has been checked and works. The success message shows once the form has been completed. An @ must be used in the email field otherwise an error message is shown.
 
-### **Validator Testing**
+## **Validator Testing**
 
 ***HTML***
 No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)
@@ -118,11 +129,11 @@ The site was run through the DevTools Lighthouse section and deemed to be 100% f
 
 ![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
 
-### **Unfixed Bugs**
+## **Unfixed Bugs**
 
 No unfixed bugs to report.
 
-### **Deployment**
+## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -134,7 +145,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - <https://todiane.github.io/sologamyp1/>
 
-### **Credits**
+## **Credits**
 
 The Sologamy Club header, footer and structure of this website has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
@@ -146,8 +157,11 @@ The quote used on the header image is a line from the chrous of the song Greates
 
 Videos on the topic taken from Vimeo and YouTube. CSS code to ensure videos remain responsive at size 1300px and below obtained from CSS Tricks <https://css-tricks.com/fluid-width-video/>
 
-### **Updated August 2023**
+## **Updated August 2023**
 
 - Added a 404 error page
 - Added favicon
 - Sticky footer added
+
+Code Institute updated their training to include information on Flexboxes so I created a version two following the Love Running training to create another Sologamy version. The deployed link is [here](https://todiane.github.io/sologamy-p1-v2/index.html)
+![sologamy version 2](assets/images/sologamy-v2.webp)
